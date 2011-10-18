@@ -42,8 +42,9 @@
     <module>rider-auto-common</module>
     <module>rider-auto-file</module>
     <module>rider-auto-ws</module>
-    <module>rider-auto-router</module>            
+    <!-- <module>rider-auto-router</module> -->
     <module>rider-auto-backend</module>    
+    <module>rider-auto-normalizer</module>            
   </modules>
 
   <dependencyManagement>
@@ -178,5 +179,15 @@
       </releases>
     </pluginRepository>
   </pluginRepositories>
-
+  <build>
+	  <plugins>
+	  	<plugin>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<configuration>
+				<source>1.6</source>
+				<target>1.6</target>
+			</configuration>
+		</plugin>
+	   </plugins>
+  </build>
 </project>

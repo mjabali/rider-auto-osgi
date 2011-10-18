@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: org.fusesource.camel.ws;uses:="javax.jws.soap,javax.jw
+ s,org.fusesource.camel.model";version="3.0.0.SNAPSHOT"
+Built-By: mjabali
+Tool: Bnd-1.43.0
+Bundle-Name: Rider Auto OSGi Example :: Web Service
+Created-By: Apache Maven Bundle Plugin
+Import-Service: javax.jms.ConnectionFactory;multiple:=false;filter="(n
+ ame=localhost)"
+Build-Jdk: 1.6.0_26
+Bundle-Version: 3.0.0.SNAPSHOT
+Bnd-LastModified: 1318956534883
+Bundle-ManifestVersion: 2
+Import-Package: javax.jms;version="[1.1,2)",javax.jws,javax.jws.soap,o
+ rg.apache.activemq.camel.component;version="[5.5,6)",org.fusesource.c
+ amel.model;version="[3.0,4)",org.osgi.service.blueprint;version="[1.0
+ .0,2.0.0)"
+Bundle-SymbolicName: org.fusesource.examples.rider-auto-ws
+

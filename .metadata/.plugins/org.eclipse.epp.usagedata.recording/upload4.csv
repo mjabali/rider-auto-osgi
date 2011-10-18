@@ -1,0 +1,304 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.tigris.subversion.subclipse.mylyn,3.0.0,"org.tigris.subversion.subclipse.mylyn",1318954921282
+started,bundle,org.tigris.subversion.subclipse.ui,1.6.18,"org.tigris.subversion.subclipse.ui",1318954921282
+os,sysinfo,,,"macosx",1318954921285
+arch,sysinfo,,,"x86_64",1318954921285
+ws,sysinfo,,,"cocoa",1318954921285
+locale,sysinfo,,,"en_US",1318954921285
+processors,sysinfo,,,"8",1318954921285
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1318954921285
+java.runtime.version,sysinfo,,,"1.6.0_26-b03-383-11A511",1318954921285
+java.specification.name,sysinfo,,,"Java Platform API Specification",1318954921285
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1318954921285
+java.specification.version,sysinfo,,,"1.6",1318954921285
+java.vendor,sysinfo,,,"Apple Inc.",1318954921285
+java.version,sysinfo,,,"1.6.0_26",1318954921285
+java.vm.info,sysinfo,,,"mixed mode",1318954921285
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1318954921285
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1318954921285
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1318954921285
+java.vm.specification.version,sysinfo,,,"1.0",1318954921285
+java.vm.vendor,sysinfo,,,"Apple Inc.",1318954921285
+java.vm.version,sysinfo,,,"20.1-b02-383",1318954921285
+started,bundle,com.fusesource.rider.model,2.0.2,"com.fusesource.rider.model",1318954924036
+started,bundle,com.fusesource.ide.fabric.camel,2.0.2,"com.fusesource.ide.fabric.camel",1318954924118
+started,bundle,com.fusesource.ide.fabric.servicemix,2.0.2,"com.fusesource.ide.fabric.servicemix",1318954924165
+started,bundle,com.fusesource.ide.jmx.ui,2.0.2,"com.fusesource.ide.jmx.ui",1318954924863
+started,bundle,com.fusesource.ide.jmx.local,2.0.2,"com.fusesource.ide.jmx.local",1318954924864
+started,bundle,com.fusesource.rider.editor,2.0.2,"com.fusesource.rider.editor",1318954924865
+started,bundle,org.tigris.subversion.subclipse.tools.usage,1.0.1,"org.tigris.subversion.subclipse.tools.usage",1318954925105
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1318954935437
+started,bundle,org.eclipse.jst.ws.jaxws.dom.integration,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.integration",1318954935745
+started,bundle,org.eclipse.jst.ws.jaxws.dom.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.ui",1318954935752
+started,bundle,org.eclipse.jst.servlet.ui,1.1.404.v201101270100,"org.eclipse.jst.servlet.ui",1318954935994
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.202.v201004211732,"org.eclipse.wst.ws.service.policy.ui",1318954938625
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.204.v201011011834,"org.eclipse.wst.ws.service.policy",1318954938635
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1318954938678
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1318954938678
+started,bundle,org.maven.ide.eclipse.editor,0.12.1.20110112-1712,"org.maven.ide.eclipse.editor",1318954938722
+started,bundle,org.maven.ide.eclipse.refactoring,0.12.1.20110112-1712,"org.maven.ide.eclipse.refactoring",1318954938730
+started,bundle,com.fusesource.rider.preferences,2.0.2,"com.fusesource.rider.preferences",1318954938873
+error,log,,,"Could not read settings.xml, assuming default values",1318954944884
+error,log,,,"Could not read settings.xml, assuming default values",1318954944885
+error,log,,,"Could not read settings.xml, assuming default values",1318954944892
+error,log,,,"Could not read settings.xml, assuming default values",1318954946087
+started,bundle,org.maven.ide.eclipse.editor.xml,0.12.1.20110112-1712,"org.maven.ide.eclipse.editor.xml",1318954946575
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.401.v201004280700,"org.eclipse.wst.common.uriresolver",1318954946611
+error,log,,,"Could not read settings.xml, assuming default values",1318954946670
+error,log,,,"Could not read settings.xml, assuming default values",1318954946671
+error,log,,,"Could not read settings.xml, assuming default values",1318954946672
+error,log,,,"Could not read settings.xml, assuming default values",1318954947011
+error,log,,,"Could not read settings.xml, assuming default values",1318954947012
+error,log,,,"Could not read settings.xml, assuming default values",1318954947013
+error,log,,,"Could not read settings.xml, assuming default values",1318954947038
+error,log,,,"Could not read settings.xml, assuming default values",1318954947039
+error,log,,,"Could not read settings.xml, assuming default values",1318954947040
+error,log,,,"Could not read settings.xml, assuming default values",1318954947221
+error,log,,,"Could not read settings.xml, assuming default values",1318954947222
+error,log,,,"Could not read settings.xml, assuming default values",1318954947224
+error,log,,,"Could not read settings.xml, assuming default values",1318954947413
+error,log,,,"Could not read settings.xml, assuming default values",1318954947431
+error,log,,,"Could not read settings.xml, assuming default values",1318954947433
+error,log,,,"Could not read settings.xml, assuming default values",1318954947435
+error,log,,,"Could not read settings.xml, assuming default values",1318954947437
+error,log,,,"Could not read settings.xml, assuming default values",1318954947438
+error,log,,,"Could not read settings.xml, assuming default values",1318954947440
+error,log,,,"Could not read settings.xml, assuming default values",1318954947441
+error,log,,,"Could not read settings.xml, assuming default values",1318954947443
+error,log,,,"Could not read settings.xml, assuming default values",1318954947444
+error,log,,,"Could not read settings.xml, assuming default values",1318954947445
+error,log,,,"Could not read settings.xml, assuming default values",1318954947447
+error,log,,,"Could not read settings.xml, assuming default values",1318954947449
+error,log,,,"Could not read settings.xml, assuming default values",1318954947450
+error,log,,,"Could not read settings.xml, assuming default values",1318954947451
+error,log,,,"Could not read settings.xml, assuming default values",1318954947453
+error,log,,,"Could not read settings.xml, assuming default values",1318954947455
+error,log,,,"Could not read settings.xml, assuming default values",1318954947461
+error,log,,,"Could not read settings.xml, assuming default values",1318954947462
+error,log,,,"Could not read settings.xml, assuming default values",1318954947464
+error,log,,,"Could not read settings.xml, assuming default values",1318954947466
+error,log,,,"Could not read settings.xml, assuming default values",1318954947468
+error,log,,,"Could not read settings.xml, assuming default values",1318954947470
+error,log,,,"Could not read settings.xml, assuming default values",1318954947472
+error,log,,,"Could not read settings.xml, assuming default values",1318954947474
+error,log,,,"Could not read settings.xml, assuming default values",1318954947475
+error,log,,,"Could not read settings.xml, assuming default values",1318954947476
+error,log,,,"Could not read settings.xml, assuming default values",1318954947478
+error,log,,,"Could not read settings.xml, assuming default values",1318954947479
+error,log,,,"Could not read settings.xml, assuming default values",1318954947480
+error,log,,,"Could not read settings.xml, assuming default values",1318954947481
+error,log,,,"Could not read settings.xml, assuming default values",1318954947483
+error,log,,,"Could not read settings.xml, assuming default values",1318954947484
+error,log,,,"Could not read settings.xml, assuming default values",1318954947485
+error,log,,,"Could not read settings.xml, assuming default values",1318954947487
+error,log,,,"Could not read settings.xml, assuming default values",1318954947488
+error,log,,,"Could not read settings.xml, assuming default values",1318954947489
+error,log,,,"Could not read settings.xml, assuming default values",1318954947490
+error,log,,,"Could not read settings.xml, assuming default values",1318954947492
+error,log,,,"Could not read settings.xml, assuming default values",1318954947493
+error,log,,,"Could not read settings.xml, assuming default values",1318954947494
+error,log,,,"Could not read settings.xml, assuming default values",1318954947495
+error,log,,,"Could not read settings.xml, assuming default values",1318954947496
+error,log,,,"Could not read settings.xml, assuming default values",1318954947498
+error,log,,,"Could not read settings.xml, assuming default values",1318954947499
+error,log,,,"Could not read settings.xml, assuming default values",1318954947500
+error,log,,,"Could not read settings.xml, assuming default values",1318954947501
+error,log,,,"Could not read settings.xml, assuming default values",1318954947502
+error,log,,,"Could not read settings.xml, assuming default values",1318954947503
+error,log,,,"Could not read settings.xml, assuming default values",1318954947505
+error,log,,,"Could not read settings.xml, assuming default values",1318954947506
+error,log,,,"Could not read settings.xml, assuming default values",1318954947507
+error,log,,,"Could not read settings.xml, assuming default values",1318954947508
+error,log,,,"Could not read settings.xml, assuming default values",1318954947510
+error,log,,,"Could not read settings.xml, assuming default values",1318954947511
+error,log,,,"Could not read settings.xml, assuming default values",1318954947513
+error,log,,,"Could not read settings.xml, assuming default values",1318954947514
+error,log,,,"Could not read settings.xml, assuming default values",1318954947519
+error,log,,,"Could not read settings.xml, assuming default values",1318954947521
+error,log,,,"Could not read settings.xml, assuming default values",1318954947522
+error,log,,,"Could not read settings.xml, assuming default values",1318954947523
+error,log,,,"Could not read settings.xml, assuming default values",1318954947524
+error,log,,,"Could not read settings.xml, assuming default values",1318954947526
+error,log,,,"Could not read settings.xml, assuming default values",1318954947527
+error,log,,,"Could not read settings.xml, assuming default values",1318954947529
+error,log,,,"Could not read settings.xml, assuming default values",1318954947530
+error,log,,,"Could not read settings.xml, assuming default values",1318954947532
+error,log,,,"Could not read settings.xml, assuming default values",1318954947534
+error,log,,,"Could not read settings.xml, assuming default values",1318954947536
+error,log,,,"Could not read settings.xml, assuming default values",1318954947538
+error,log,,,"Could not read settings.xml, assuming default values",1318954947539
+error,log,,,"Could not read settings.xml, assuming default values",1318954947541
+error,log,,,"Could not read settings.xml, assuming default values",1318954947542
+error,log,,,"Could not read settings.xml, assuming default values",1318954947543
+error,log,,,"Could not read settings.xml, assuming default values",1318954947544
+error,log,,,"Could not read settings.xml, assuming default values",1318954947545
+error,log,,,"Could not read settings.xml, assuming default values",1318954947547
+error,log,,,"Could not read settings.xml, assuming default values",1318954947548
+error,log,,,"Could not read settings.xml, assuming default values",1318954947549
+error,log,,,"Could not read settings.xml, assuming default values",1318954947550
+error,log,,,"Could not read settings.xml, assuming default values",1318954947552
+error,log,,,"Could not read settings.xml, assuming default values",1318954947554
+error,log,,,"Could not read settings.xml, assuming default values",1318954947556
+error,log,,,"Could not read settings.xml, assuming default values",1318954947557
+error,log,,,"Could not read settings.xml, assuming default values",1318954947559
+error,log,,,"Could not read settings.xml, assuming default values",1318954947560
+error,log,,,"Could not read settings.xml, assuming default values",1318954947561
+error,log,,,"Could not read settings.xml, assuming default values",1318954947562
+error,log,,,"Could not read settings.xml, assuming default values",1318954947564
+error,log,,,"Could not read settings.xml, assuming default values",1318954947565
+error,log,,,"Could not read settings.xml, assuming default values",1318954947567
+error,log,,,"Could not read settings.xml, assuming default values",1318954947569
+error,log,,,"Could not read settings.xml, assuming default values",1318954947570
+error,log,,,"Could not read settings.xml, assuming default values",1318954947572
+error,log,,,"Could not read settings.xml, assuming default values",1318954947573
+error,log,,,"Could not read settings.xml, assuming default values",1318954947575
+error,log,,,"Could not read settings.xml, assuming default values",1318954947577
+error,log,,,"Could not read settings.xml, assuming default values",1318954947581
+error,log,,,"Could not read settings.xml, assuming default values",1318954947583
+error,log,,,"Could not read settings.xml, assuming default values",1318954947585
+error,log,,,"Could not read settings.xml, assuming default values",1318954947586
+error,log,,,"Could not read settings.xml, assuming default values",1318954947588
+error,log,,,"Could not read settings.xml, assuming default values",1318954947589
+error,log,,,"Could not read settings.xml, assuming default values",1318954947591
+error,log,,,"Could not read settings.xml, assuming default values",1318954947592
+error,log,,,"Could not read settings.xml, assuming default values",1318954947593
+error,log,,,"Could not read settings.xml, assuming default values",1318954947594
+error,log,,,"Could not read settings.xml, assuming default values",1318954947596
+error,log,,,"Could not read settings.xml, assuming default values",1318954947597
+error,log,,,"Could not read settings.xml, assuming default values",1318954947599
+error,log,,,"Could not read settings.xml, assuming default values",1318954947600
+error,log,,,"Could not read settings.xml, assuming default values",1318954947602
+error,log,,,"Could not read settings.xml, assuming default values",1318954947603
+error,log,,,"Could not read settings.xml, assuming default values",1318954947604
+error,log,,,"Could not read settings.xml, assuming default values",1318954947605
+error,log,,,"Could not read settings.xml, assuming default values",1318954947607
+error,log,,,"Could not read settings.xml, assuming default values",1318954947608
+error,log,,,"Could not read settings.xml, assuming default values",1318954947609
+error,log,,,"Could not read settings.xml, assuming default values",1318954947610
+error,log,,,"Could not read settings.xml, assuming default values",1318954947612
+error,log,,,"Could not read settings.xml, assuming default values",1318954947613
+error,log,,,"Could not read settings.xml, assuming default values",1318954947614
+error,log,,,"Could not read settings.xml, assuming default values",1318954947615
+error,log,,,"Could not read settings.xml, assuming default values",1318954947617
+error,log,,,"Could not read settings.xml, assuming default values",1318954947618
+error,log,,,"Could not read settings.xml, assuming default values",1318954947619
+error,log,,,"Could not read settings.xml, assuming default values",1318954947621
+error,log,,,"Could not read settings.xml, assuming default values",1318954947622
+error,log,,,"Could not read settings.xml, assuming default values",1318954947623
+error,log,,,"Could not read settings.xml, assuming default values",1318954947624
+error,log,,,"Could not read settings.xml, assuming default values",1318954947625
+error,log,,,"Could not read settings.xml, assuming default values",1318954947627
+error,log,,,"Could not read settings.xml, assuming default values",1318954947628
+error,log,,,"Could not read settings.xml, assuming default values",1318954947629
+error,log,,,"Could not read settings.xml, assuming default values",1318954947630
+error,log,,,"Could not read settings.xml, assuming default values",1318954947632
+error,log,,,"Could not read settings.xml, assuming default values",1318954947633
+error,log,,,"Could not read settings.xml, assuming default values",1318954947636
+error,log,,,"Could not read settings.xml, assuming default values",1318954947638
+error,log,,,"Could not read settings.xml, assuming default values",1318954947639
+error,log,,,"Could not read settings.xml, assuming default values",1318954947640
+error,log,,,"Could not read settings.xml, assuming default values",1318954947641
+error,log,,,"Could not read settings.xml, assuming default values",1318954947642
+error,log,,,"Could not read settings.xml, assuming default values",1318954947643
+error,log,,,"Could not read settings.xml, assuming default values",1318954947644
+error,log,,,"Could not read settings.xml, assuming default values",1318954947645
+error,log,,,"Could not read settings.xml, assuming default values",1318954947646
+error,log,,,"Could not read settings.xml, assuming default values",1318954947647
+error,log,,,"Could not read settings.xml, assuming default values",1318954947648
+error,log,,,"Could not read settings.xml, assuming default values",1318954947649
+error,log,,,"Could not read settings.xml, assuming default values",1318954947650
+error,log,,,"Could not read settings.xml, assuming default values",1318954947651
+error,log,,,"Could not read settings.xml, assuming default values",1318954947652
+error,log,,,"Could not read settings.xml, assuming default values",1318954947653
+error,log,,,"Could not read settings.xml, assuming default values",1318954947654
+error,log,,,"Could not read settings.xml, assuming default values",1318954947655
+error,log,,,"Could not read settings.xml, assuming default values",1318954947656
+error,log,,,"Could not read settings.xml, assuming default values",1318954947657
+error,log,,,"Could not read settings.xml, assuming default values",1318954947658
+error,log,,,"Could not read settings.xml, assuming default values",1318954947660
+error,log,,,"Could not read settings.xml, assuming default values",1318954947660
+error,log,,,"Could not read settings.xml, assuming default values",1318954947661
+error,log,,,"Could not read settings.xml, assuming default values",1318954947662
+error,log,,,"Could not read settings.xml, assuming default values",1318954947664
+error,log,,,"Could not read settings.xml, assuming default values",1318954947665
+started,bundle,org.eclipse.debug.ui,3.6.3.v20101201_r362,"org.eclipse.debug.ui",1318954953035
+started,bundle,org.maven.ide.eclipse.launching,0.12.1.20110112-1712,"org.maven.ide.eclipse.launching",1318954957727
+started,bundle,org.eclipse.jdt.debug,3.6.1.v20100715_r361,"org.eclipse.jdt.debug",1318954957887
+started,bundle,org.eclipse.jdt.debug.ui,3.5.2.v20100928a_r362,"org.eclipse.jdt.debug.ui",1318954957919
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1318954958132
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1318954962115
+executed,command,org.maven.ide.eclipse.launching,0.12.1.20110112-1712,"org.maven.ide.eclipse.pomFileAction.run",1318954962156
+executed,command,org.maven.ide.eclipse.launching,0.12.1.20110112-1712,"org.maven.ide.eclipse.actions.LifeCycleInstall.run",1318954966988
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1318954975400
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1318954977015
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1318954984155
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1318954986400
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1318955021503
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1318955026368
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1318955028975
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1318955030351
+executed,command,org.maven.ide.eclipse.launching,0.12.1.20110112-1712,"org.maven.ide.eclipse.actions.LifeCycleClean.run",1318955033957
+executed,command,org.maven.ide.eclipse.launching,0.12.1.20110112-1712,"org.maven.ide.eclipse.actions.LifeCycleInstall.run",1318955045449
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1318955069809
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1318955076348
+closed,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1318955082103
+stopped,bundle,org.eclipse.jst.j2ee.xdoclet.runtime,1.1.300.v201004280700,"org.eclipse.jst.j2ee.xdoclet.runtime",1318955083143
+stopped,bundle,org.eclipse.jst.j2ee.ejb.annotations.xdoclet,1.2.100.v201003112036,"org.eclipse.jst.j2ee.ejb.annotations.xdoclet",1318955083143
+stopped,bundle,org.eclipse.jst.server.generic.jboss,1.6.1.v200904151730,"org.eclipse.jst.server.generic.jboss",1318955083144
+stopped,bundle,org.eclipse.jst.server.generic.jonas,1.5.205.v200805140145,"org.eclipse.jst.server.generic.jonas",1318955083144
+stopped,bundle,org.eclipse.jst.server.generic.oc4j,1.5.206.v20090812,"org.eclipse.jst.server.generic.oc4j",1318955083145
+stopped,bundle,org.eclipse.jst.server.websphere.core,1.0.302.v20080620,"org.eclipse.jst.server.websphere.core",1318955083146
+stopped,bundle,org.eclipse.jst.server.generic.ui,1.0.505.v20100428,"org.eclipse.jst.server.generic.ui",1318955083148
+stopped,bundle,org.eclipse.jst.server.generic.core,1.0.606.v20100512,"org.eclipse.jst.server.generic.core",1318955083148
+stopped,bundle,org.eclipse.datatools.connectivity.oda.template.ui,3.2.1.v201004090942,"org.eclipse.datatools.connectivity.oda.template.ui",1318955083149
+stopped,bundle,org.eclipse.pde.api.tools.ui,1.0.201.v20100820_r361,"org.eclipse.pde.api.tools.ui",1318955083180
+activated,perspective,org.eclipse.jst.j2ee.ui,,"org.eclipse.jst.j2ee.J2EEPerspective",1318955202205
+started,bundle,org.eclipse.osgi,3.6.2.R36x_v20110210,"org.eclipse.osgi",1318955202207
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20100503,"org.eclipse.equinox.simpleconfigurator",1318955202226
+started,bundle,com.ibm.icu,4.2.1.v20100412,"com.ibm.icu",1318955202227
+started,bundle,org.eclipse.compare,3.5.101.R36x_v20100929-0800,"org.eclipse.compare",1318955202228
+started,bundle,org.eclipse.compare.core,3.5.101.R36x_v20100929-0800,"org.eclipse.compare.core",1318955202229
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20100505-1235,"org.eclipse.core.contenttype",1318955202229
+started,bundle,org.eclipse.core.databinding.observable,1.3.0.I20100601-0800,"org.eclipse.core.databinding.observable",1318955202230
+started,bundle,org.eclipse.core.expressions,3.4.200.v20100505,"org.eclipse.core.expressions",1318955202231
+started,bundle,org.eclipse.core.filebuffers,3.5.100.v20100520-0800,"org.eclipse.core.filebuffers",1318955202231
+started,bundle,org.eclipse.core.filesystem,1.3.1.R36x_v20100727-0745,"org.eclipse.core.filesystem",1318955202232
+started,bundle,org.eclipse.core.jobs,3.5.1.R36x_v20100824,"org.eclipse.core.jobs",1318955202233
+started,bundle,org.eclipse.core.net,1.2.100.I20100511-0800,"org.eclipse.core.net",1318955202233
+started,bundle,org.eclipse.core.resources,3.6.1.R36x_v20110131-1630,"org.eclipse.core.resources",1318955202234
+started,bundle,org.eclipse.core.runtime,3.6.0.v20100505,"org.eclipse.core.runtime",1318955202234
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1318955202235
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20100517,"org.eclipse.core.runtime.compatibility.auth",1318955202235
+started,bundle,org.eclipse.core.variables,3.2.400.v20100505,"org.eclipse.core.variables",1318955202236
+started,bundle,org.eclipse.debug.core,3.6.0.v20100519,"org.eclipse.debug.core",1318955202237
+started,bundle,org.eclipse.emf.common,2.6.0.v20100914-1218,"org.eclipse.emf.common",1318955202237
+started,bundle,org.eclipse.emf.common.ui,2.6.0.v20100914-1218,"org.eclipse.emf.common.ui",1318955202238
+started,bundle,org.eclipse.emf.ecore,2.6.1.v20100914-1218,"org.eclipse.emf.ecore",1318955202241
+started,bundle,org.eclipse.emf.ecore.xmi,2.5.0.v20100521-1846,"org.eclipse.emf.ecore.xmi",1318955202242
+started,bundle,org.eclipse.emf.edit,2.6.0.v20100914-1218,"org.eclipse.emf.edit",1318955202242
+started,bundle,org.eclipse.emf.edit.ui,2.6.0.v20100914-1218,"org.eclipse.emf.edit.ui",1318955202243
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201102081640,"org.eclipse.epp.usagedata.gathering",1318955202243
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201102081640,"org.eclipse.epp.usagedata.recording",1318955202244
+started,bundle,org.eclipse.equinox.app,1.3.1.R36x_v20100803,"org.eclipse.equinox.app",1318955202244
+started,bundle,org.eclipse.equinox.common,3.6.0.v20100503,"org.eclipse.equinox.common",1318955202245
+started,bundle,org.eclipse.equinox.ds,1.2.1.R36x_v20100803,"org.eclipse.equinox.ds",1318955202245
+started,bundle,org.eclipse.equinox.event,1.2.0.v20100503,"org.eclipse.equinox.event",1318955202245
+started,bundle,org.eclipse.equinox.p2.core,2.0.3.R36x_v20110111,"org.eclipse.equinox.p2.core",1318955202246
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.203.R36x_v20101220,"org.eclipse.equinox.p2.directorywatcher",1318955202246
+started,bundle,org.eclipse.equinox.p2.engine,2.0.1.R36x_v20110201,"org.eclipse.equinox.p2.engine",1318955202247
+started,bundle,org.eclipse.equinox.p2.metadata,2.0.1.R36x_v20101202,"org.eclipse.equinox.p2.metadata",1318955202248
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.1.0.v20100513,"org.eclipse.equinox.p2.metadata.repository",1318955202248
+started,bundle,org.eclipse.equinox.p2.operations,2.0.0.v20100510,"org.eclipse.equinox.p2.operations",1318955202249
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.2.R36x_v20110114,"org.eclipse.equinox.p2.reconciler.dropins",1318955202249
+started,bundle,org.eclipse.equinox.p2.repository,2.0.2.R36x_v20110111-1500,"org.eclipse.equinox.p2.repository",1318955202250
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20100507-1815,"org.eclipse.equinox.p2.ui.sdk.scheduler",1318955202250
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.101.R36x_v20100823,"org.eclipse.equinox.p2.updatechecker",1318955202251
+started,bundle,org.eclipse.equinox.preferences,3.3.0.v20100503,"org.eclipse.equinox.preferences",1318955202251
+started,bundle,org.eclipse.equinox.registry,3.5.0.v20100503,"org.eclipse.equinox.registry",1318955202252
+started,bundle,org.eclipse.equinox.security,1.0.200.v20100503,"org.eclipse.equinox.security",1318955202253
+started,bundle,org.eclipse.equinox.util,1.0.200.v20100503,"org.eclipse.equinox.util",1318955202253
+started,bundle,org.eclipse.help,3.5.0.v20100524,"org.eclipse.help",1318955202254
+started,bundle,org.eclipse.jdt.apt.core,3.3.402.R36_v20110120-1000,"org.eclipse.jdt.apt.core",1318955202254
+started,bundle,org.eclipse.jdt.core,3.6.2.v_A76_R36x,"org.eclipse.jdt.core",1318955202255
+started,bundle,org.eclipse.jdt.core.manipulation,1.3.0.v20100520-0800,"org.eclipse.jdt.core.manipulation",1318955202256
+started,bundle,org.eclipse.jdt.junit,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.junit",1318955202256

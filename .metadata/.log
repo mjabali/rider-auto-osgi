@@ -1,0 +1,1811 @@
+!SESSION 2011-10-18 09:21:42.421 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_26
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/mjabali/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/mjabali/.eclipse_keyring -showlocation
+
+This is a continuation of log file /Applications/eclipse/workspace/rider-auto-osgi/.metadata/.bak_0.log
+Created Time: 2011-10-18 09:22:27.574
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.574
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.576
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.580
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.582
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.584
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.586
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.588
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.589
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.590
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.592
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.593
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.594
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.596
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.597
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.598
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.600
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.601
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.603
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.604
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.605
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.606
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.608
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.609
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.610
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.612
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.613
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.614
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.615
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.616
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.618
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.619
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.620
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.622
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.623
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.624
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.625
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.626
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.628
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.629
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.630
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.631
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.632
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.633
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.637
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.639
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.640
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.641
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.642
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.643
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.644
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.645
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.646
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.647
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.648
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.649
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.650
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.651
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.652
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.653
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.654
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.655
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.656
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.657
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.658
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.659
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.660
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.661
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getSourcePath(BuildPathManager.java:719)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:379)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.662
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedArtifactFile(BuildPathManager.java:734)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getJavaDocUrl(BuildPathManager.java:750)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:388)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.663
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:868)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2011-10-18 09:22:27.664
+!MESSAGE Could not read settings.xml, assuming default values
+!STACK 0
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings /Users/mjabali/.m2/settings.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<repositories>\n        <repository>... @65:21)  @ /Users/mjabali/.m2/settings.xml, line 65, column 21
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:116)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getSettings(MavenImpl.java:327)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:206)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:304)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.isUnavailable(MavenImpl.java:625)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.isUnavailable(BuildPathManager.java:408)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getAttachedSourcesAndJavadoc(BuildPathManager.java:869)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.scheduleDownload(BuildPathManager.java:856)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.configureAttchedSourcesAndJavadoc(BuildPathManager.java:401)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:337)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:443)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:424)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.getClasspath(BuildPathManager.java:451)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.updateClasspath(BuildPathManager.java:270)
+	at org.maven.ide.eclipse.jdt.BuildPathManager.mavenProjectChanged(BuildPathManager.java:259)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:636)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:767)
+	at org.maven.ide.eclipse.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2011-10-18 09:26:31.494 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_26
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/mjabali/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Applications/eclipse/workspace/rider-auto-osgi -product org.eclipse.epp.package.jee.product -keyring /Users/mjabali/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-10-18 09:26:35.327
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2011-10-18 09:26:40.833
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-10-18 09:26:40.833
+!MESSAGE A conflict occurred for COMMAND+SHIFT+M:
+Binding(COMMAND+SHIFT+M,
+	ParameterizedCommand(Command(net.jmesnil.jmx.ui.navigate.open.mbean,Open MBean,
+		Open a MBean in a MBean editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+M,
+	ParameterizedCommand(Command(com.fusesource.ide.jmx.ui.navigate.open.mbean,Open MBean,
+		Open a MBean in a MBean editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-10-18 09:26:40.833
+!MESSAGE A conflict occurred for COMMAND+R:
+Binding(COMMAND+R,
+	ParameterizedCommand(Command(net.jmesnil.jmx.ui.navigate.refresh,Refresh,
+		Refreshes the tree,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+R,
+	ParameterizedCommand(Command(com.fusesource.ide.jmx.ui.navigate.refresh,Refresh,
+		Refreshes the tree,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
